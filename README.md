@@ -24,7 +24,6 @@
 ![NA values](NA_Values_Visualization.png)
 
 
-<br>
 
 ![head](head(df).png)
 
