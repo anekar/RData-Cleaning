@@ -14,6 +14,7 @@ library(janitor)
 ```
 
 ```{r Importing the df}
+
 df = read_csv('AB_NYC_2019.csv')
 ```
 
@@ -59,7 +60,8 @@ gg_miss_upset(df)
 ```{r histograms and boxplots}
 options(scipen = 99)
 # for scientific notation
-boxplot(df$last_review) 
+boxplot(df$last_review)
+summary(df$last_review)
 boxplot(df$reviews_per_month)
 df %>% 
   clean_names()
