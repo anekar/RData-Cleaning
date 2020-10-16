@@ -1,0 +1,83 @@
+---
+title: "Data Cleaning project"
+author: "Anestis Karonidis"
+date: "13/10/2020"
+output: pdf_document
+---
+```{r install the necessaey libraries}
+library(naniar)
+library(tidyverse)
+library(dplyr)
+library(readr)
+library(visdat)
+library(janitor)
+```
+
+```{r Importing the df}
+df = read_csv('AB_NYC_2019.csv')
+```
+
+```{r getting a sense of the data}
+head(df$last_review)
+glimpse(df)
+head(df)
+summary(df)
+df %>% 
+  clean_names()
+```
+
+```{r converting the column names to it's original data types}
+df$id <- as.numeric(df$id)
+class(df$id)
+df$name <- as.character(df$name)
+class(df$name)
+df$host_id <- as.numeric(df$host_id)
+class(df$host_id)
+df$latitude <- as.numeric(df$latitude)
+class(df$latitude)
+df$longitude <- as.numeric(df$longitude)
+class(df$longitude)
+df$price <- as.numeric(df$price)
+class(df$price)
+df$minimum_nights <- as.numeric(df$minimum_nights)
+class(df$minimum_nights)
+df$number_of_reviews <- as.numeric(df$number_of_reviews)
+class(df$number_of_reviews)
+df$reviews_per_month <- as.numeric(df$reviews_per_month)
+class(df$reviews_per_month)
+df$calculated_host_listings_count <- as.numeric(df$calculated_host_listings_count)
+class(df$calculated_host_listings_count)
+df$availability_365 <- as.numeric(df$availability_365)
+class(df$availability_365)
+```
+
+```{r NA values visualization}
+gg_miss_upset(df)
+
+```
+
+```{r histograms and boxplots}
+options(scipen = 99)
+# for scientific notation
+boxplot(df$last_review) 
+boxplot(df$reviews_per_month)
+df %>% 
+  clean_names()
+get_dupes(df)
+
+df<- df %>%
+  remove_empty(c("rows", "cols"))
+
+```
+
+```{r, dropping na values}
+df <- df %>%  drop_na(last_review)
+ 
+```
+
+```{r, checking for outliers}
+summary(df$name)
+summary(df$host_name)
+summary(df)
+df
+```
