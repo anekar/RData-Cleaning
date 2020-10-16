@@ -20,12 +20,11 @@
            
  
 ## Screenshots
+![NA_values_visualization](https://user-images.githubusercontent.com/47696240/96313024-86642600-1015-11eb-9144-d0880d6d5b35.png)
+<br>
 
-![NA values](NA_Values_Visualization.png)
+![head(df)](https://user-images.githubusercontent.com/47696240/96313011-8106db80-1015-11eb-9cc1-aa807257d406.png)
 
-
-
-![head](head(df).png)
 
 ##Technologies
 * The project was developed with RStudio.
