@@ -10,9 +10,10 @@
 ## General-info
 *  In order to get familliar with the *library (janitor)*, i developed this data cleaning project.
 
-   About the data.  
+## About the data.  
+The csv file was downloaded from Kaggle 
    ```
-    The csv file was downloaded from Kaggle and 
+    
             1. Includes data from AIRBNB in the city of New York such as
             2. host_id
             3. host_name
@@ -26,7 +27,7 @@
 ![head(df)](https://user-images.githubusercontent.com/47696240/96313011-8106db80-1015-11eb-9cc1-aa807257d406.png)
 
 
-##Technologies
+## Technologies
 * The project was developed with RStudio.
 
 ## Libraries
@@ -38,7 +39,7 @@ library(readr)
 library(visdat)
 library(janitor)
 ```
-##Setup
+## Setup
 ```R
 setwd('')
 df = read_csv('AB_NYC_2019.csv')
@@ -46,7 +47,7 @@ df = read_csv('AB_NYC_2019.csv')
 
 
 
-##Code - Examples
+## Code - Examples
 ```
 glimpse(df) # getting a sense of the data 
 class(df)
