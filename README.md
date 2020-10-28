@@ -1,4 +1,3 @@
-
 ## Table of contents
 * [General-info](general-info)
 * [Screenshots](screenshots)
@@ -11,13 +10,11 @@
 *  In order to get familliar with the *library (janitor)*, i developed this data cleaning project.
 
 ## About the data.  
-The csv file was downloaded from Kaggle 
+The csv file was downloaded from Kaggle. Includes data from AIRBNB in the city of New York
    ```
-    
-            1. Includes data from AIRBNB in the city of New York such as
-            2. host_id
-            3. host_name
-    ```` 
+            1. host_id
+            2. host_name
+```
            
  
 ## Screenshots
