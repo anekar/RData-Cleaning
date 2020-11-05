@@ -47,8 +47,8 @@ df = read_csv('AB_NYC_2019.csv')
 ## Code - Examples
 ```
 glimpse(df) # getting a sense of the data 
-class(df)
-options(scipen = 99) # for scientific notation
+class(df) # reveals the type of the dataframe
+options(scipen = 99) # for turning off scientific notation
 ```
 
 
