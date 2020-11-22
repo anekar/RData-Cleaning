@@ -9,8 +9,9 @@
 ## General-info
 *  In order to get familliar with the *library (janitor)*, i developed this data cleaning project.
 
-## About the data.  
-The csv file was downloaded from Kaggle. Includes data from AIRBNB platoform for the city of New York
+## About the data 
+The csv file was downloaded from Kaggle. 
+Includes data from AIRBNB platoform for the city of New York
  ```
             1. host_id
             2. host_name
@@ -25,7 +26,7 @@ The csv file was downloaded from Kaggle. Includes data from AIRBNB platoform for
 
 
 ## Technologies
-* The project was developed with R.
+* The project was developed with R programming language.
 
 # Environment
 * RStudio
