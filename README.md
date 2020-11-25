@@ -25,10 +25,10 @@ Includes data from AIRBNB platoform for the city of New York
 ![head(df)](https://user-images.githubusercontent.com/47696240/96313011-8106db80-1015-11eb-9cc1-aa807257d406.png)
 
 
-## Technologies
+## Languages
 * The project was developed with R programming language.
 
-# Environment
+## Environment
 * RStudio
 
 ## Libraries
@@ -45,8 +45,6 @@ library(janitor)
 setwd('')
 df = read_csv('AB_NYC_2019.csv')
 ```
-
-
 
 ## Code - Examples
 ```
