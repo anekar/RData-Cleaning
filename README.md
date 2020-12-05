@@ -6,10 +6,10 @@
 * [Libraries](libraries)
 * [Code-Examples](code-examples)
 
-## General-info
+## General-Info
 *  In order to get familliar with the *library (janitor)*, i developed this data cleaning project.
 
-## About the data 
+## Dataset 
 The csv file was downloaded from Kaggle. 
 Includes data from AIRBNB platoform for the city of New York
  ```
