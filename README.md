@@ -4,7 +4,7 @@
 * [Technologies](technologies)
 * [Setup](setup)
 * [Libraries](libraries)
-* [Code-Examples](code-examples)
+* [Code-Samples](code-examples)
 
 ## General-Info
 *  In order to get familliar with the *library (janitor)*, i developed this data cleaning project.
