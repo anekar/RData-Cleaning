@@ -1,4 +1,4 @@
-## Table of contents
+## Table Contents
 * [General-info](general-info)
 * [Screenshots](screenshots)
 * [Technologies](technologies)
