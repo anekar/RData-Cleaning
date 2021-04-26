@@ -18,7 +18,7 @@ Includes data from AIRBNB platoform for the city of New York
 ```
            
  
-## Screenshots
+## Images
 ![NA_values_visualization](https://user-images.githubusercontent.com/47696240/96313024-86642600-1015-11eb-9144-d0880d6d5b35.png)
 
 
