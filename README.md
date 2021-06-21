@@ -7,7 +7,7 @@
 * [Code-Samples](code-examples)
 
 ## General-Info
-* To get familliar with the *library (janitor)*, i developed this  project.
+To get familliar with the *library (janitor)*, i developed this  project.
 
 ## Dataset 
 The csv file was downloaded from Kaggle. 
