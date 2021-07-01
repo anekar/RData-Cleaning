@@ -51,8 +51,8 @@ df = read_csv('AB_NYC_2019.csv')
 glimpse(df) 
 class(df) 
 options(scipen = 999) 
-summary (df)
 # turning off scientific notation
+summary (df)
 ```
 
 
