@@ -1,5 +1,5 @@
 ## Table Contents
-* [General-info](general-info)
+* [General-Info](general-info)
 * [Screenshots](screenshots)
 * [Technologies](technologies)
 * [Setup](setup)
