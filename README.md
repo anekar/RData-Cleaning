@@ -1,3 +1,6 @@
+![Visualization of the codebase](./diagram.svg)
+
+
 ## Table Contents
 * [General-Info](general-info)
 * [Screenshots](screenshots)
